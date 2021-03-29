@@ -217,7 +217,10 @@ void cli_frontend::start_execution(mame_machine_manager *manager, const std::vec
 	try
 	{
 		m_options.parse_command_line(args, OPTION_PRIORITY_CMDLINE);
-		m_osd.set_verbose(m_options.verbose());
+	}
+	catch (options_warning_exception &ex)
+	{
+		osd_printf_error("%s", ex.message());
 	}
 	catch (options_exception &ex)
 	{
@@ -228,6 +231,7 @@ void cli_frontend::start_execution(mame_machine_manager *manager, const std::vec
 		// otherwise, error on the options
 		throw emu_fatalerror(EMU_ERR_INVALID_CONFIG, "%s", ex.message());
 	}
+	m_osd.set_verbose(m_options.verbose());
 
 	// determine the base name of the EXE
 	std::string_view exename = core_filename_extract_base(args[0], true);
@@ -819,7 +823,7 @@ void cli_frontend::listmedia(const std::vector<std::string> &args)
 			std::string paren_shortname = string_format("(%s)", imagedev.brief_instance_name());
 
 			// output the line, up to the list of extensions
-			printf("%-16s %-16s %-10s ", first ? drivlist.driver().name : "", imagedev.instance_name().c_str(), paren_shortname.c_str());
+			printf("%-16s %-16s %-10s ", drivlist.driver().name, imagedev.instance_name().c_str(), paren_shortname.c_str());
 
 			// get the extensions and print them
 			std::string extensions(imagedev.file_extensions());

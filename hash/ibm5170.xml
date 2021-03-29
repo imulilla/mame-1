@@ -10927,6 +10927,7 @@ license:CC0
 	</software>
 
 	<software name="epdeepsea">
+		<!-- bad dump - Modified root and OEM ID -->
 		<description>Epic Pinball: Deep Sea</description>
 		<year>1994</year>
 		<publisher>B&amp;N Companies</publisher>
@@ -10934,11 +10935,10 @@ license:CC0
 		<info name="version" value="2.1" />
 		<part name="flop1" interface="floppy_3_5">
 			<dataarea name="flop" size = "737280">
-				<rom name="Pinball Deep Sea [B&amp;N Companies] [1994] [3.5DD] [Disk 1 of 1].img" size="737280" crc="caae0723" sha1="625694111fc8cf946d2009caa3c6ca927e0c6779"/>
+				<rom name="Pinball Deep Sea [B&amp;N Companies] [1994] [3.5DD] [Disk 1 of 1].img" size="737280" crc="caae0723" sha1="625694111fc8cf946d2009caa3c6ca927e0c6779" status="baddump"/>
 			</dataarea>
 		</part>
 	</software>
-
 
 	<software name="epenigma">
 		<description>Epic Pinball: Enigma</description>
@@ -13716,6 +13716,29 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="mixupft">
+		<description>Mixed-Up Fairy Tales</description>
+		<year>1991</year>
+		<publisher>Sierra On-Line</publisher>
+		<info name="developer" value="Sierra On-Line" />
+		<info name="version" value="1.000" />
+		<part name="flop1" interface="floppy_3_5">
+			<dataarea name="flop" size = "1474560">
+				<rom name="Mixed-Up Fairy Tales [Sierra] [1991] [3.5HD] [Disk 1 of 3].img" size="1474560" crc="90175ae9" sha1="5a7dfe8b259f698a7ecd2380154c9b23f3df7509"/>
+			</dataarea>
+		</part>
+		<part name="flop2" interface="floppy_3_5">
+			<dataarea name="flop" size = "1474560">
+				<rom name="Mixed-Up Fairy Tales [Sierra] [1991] [3.5HD] [Disk 2 of 3].img" size="1474560" crc="6b1a9fd0" sha1="69d515b27a199e0e330208453267b39880493412"/>
+			</dataarea>
+		</part>
+		<part name="flop3" interface="floppy_3_5">
+			<dataarea name="flop" size = "1474560">
+				<rom name="Mixed-Up Fairy Tales [Sierra] [1991] [3.5HD] [Disk 3 of 3].img" size="1474560" crc="16701afa" sha1="d098b4719c367098da905d018fe5781bb9241707"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="monkey2">
 		<description>Monkey Island 2: LeChuck's Revenge (3.5")</description>
 		<year>1991</year>
@@ -13908,6 +13931,43 @@ license:CC0
 		<part name="flop3" interface="floppy_3_5">
 			<dataarea name="flop" size = "1474560">
 				<rom name="Mortal Kombat (Germany) [Acclaim Entertainment] [1993] [3.5HD] [Disk 3 of 3].img" size="1474560" crc="79fa7c68" sha1="e2b09703777b4d70b4cea4e1f23f3b258b53c46d"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="museumm">
+		<description>Museum Madness</description>
+		<year>1994</year>
+		<publisher>MECC</publisher>
+		<info name="developer" value="Novotrade Software" />
+		<part name="flop1" interface="floppy_3_5">
+			<dataarea name="flop" size = "1474560">
+				<rom name="Museum Madness [MECC] [1994] [3.5HD] [Disk 1 of 6].img" size="1474560" crc="8a1b34bb" sha1="ae3ac268bae551c8d8a61d51e8018e63211989f4"/>
+			</dataarea>
+		</part>
+		<part name="flop2" interface="floppy_3_5">
+			<dataarea name="flop" size = "1474560">
+				<rom name="Museum Madness [MECC] [1994] [3.5HD] [Disk 2 of 6].img" size="1474560" crc="b51b6c3c" sha1="01cf3cbf2060ce85b6f372085525b9f57d745994"/>
+			</dataarea>
+		</part>
+		<part name="flop3" interface="floppy_3_5">
+			<dataarea name="flop" size = "1474560">
+				<rom name="Museum Madness [MECC] [1994] [3.5HD] [Disk 3 of 6].img" size="1474560" crc="91d43840" sha1="bc1eb6e9ff5668b2af3c08360024e1da0318e119"/>
+			</dataarea>
+		</part>
+		<part name="flop4" interface="floppy_3_5">
+			<dataarea name="flop" size = "1474560">
+				<rom name="Museum Madness [MECC] [1994] [3.5HD] [Disk 4 of 6].img" size="1474560" crc="200db528" sha1="4558d5aabb3b210cd404aef0e9313a9e61eb6169"/>
+			</dataarea>
+		</part>
+		<part name="flop5" interface="floppy_3_5">
+			<dataarea name="flop" size = "1474560">
+				<rom name="Museum Madness [MECC] [1994] [3.5HD] [Disk 5 of 6].img" size="1474560" crc="ed6001e7" sha1="a4d62279756f1d64c77054f67b967f027f6f7af8"/>
+			</dataarea>
+		</part>
+		<part name="flop6" interface="floppy_3_5">
+			<dataarea name="flop" size = "1474560">
+				<rom name="Museum Madness [MECC] [1994] [3.5HD] [Disk 6 of 6].img" size="1474560" crc="807ec8c2" sha1="22fbc04618da52584049e3848671b5165b3c324f"/>
 			</dataarea>
 		</part>
 	</software>
@@ -15822,6 +15882,23 @@ license:CC0
 		</part>
 	</software>
 
+	<software name="topgundz">
+		<description>Top Gun: Danger Zone</description>
+		<year>1991</year>
+		<publisher>Konami</publisher>
+		<info name="developer" value="Distinctive Software" />
+		<part name="flop1" interface="floppy_3_5">
+			<dataarea name="flop" size = "1474560">
+				<rom name="Top Gun - Danger Zone [Konami] [1991] [3.5HD] [Disk 1 of 2] [F-18 Hornet Disk].img" size="1474560" crc="2655f097" sha1="59d4e6b206b0f4c0807a2487e0cc56bcf44a7c6c"/>
+			</dataarea>
+		</part>
+		<part name="flop2" interface="floppy_3_5">
+			<dataarea name="flop" size = "1474560">
+				<rom name="Top Gun - Danger Zone [Konami] [1991] [3.5HD] [Disk 2 of 2] [F-14 Tomcat Disk].img" size="1474560" crc="ab5bdade" sha1="841ca7a5813b4d85e5757d63399f7fff26e9a2d8"/>
+			</dataarea>
+		</part>
+	</software>
+
 	<software name="tubworld">
 		<description>Tubular Worlds</description>
 		<year>1994</year>
@@ -16468,6 +16545,18 @@ license:CC0
 		<part name="flop1" interface="floppy_3_5">
 			<dataarea name="flop" size = "1474560">
 				<rom name="Wolfenstein 3-D (v1.4) [Mindscape] [1994] [3.5HD] [Disk 1 of 1].img" size="1474560" crc="281c99b0" sha1="584daa625862c0d1e380eeabef569fcf24d639d2"/>
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="wolf3dsw" cloneof="wolf3d">
+		<description>Wolfenstein 3-D (shareware, Titanium Seal release)</description>
+		<year>1994</year>
+		<publisher>Titanium Seal</publisher>
+		<info name="developer" value="id Software" />
+		<part name="flop1" interface="floppy_3_5">
+			<dataarea name="flop" size = "737280">
+				<rom name="Wolfenstein 3D (shareware) [Titanium Seal] [1994] [3.5DD] [Disk 1 of 1].img" size="737280" crc="7b233ee7" sha1="ce2bbf3c5b52602ebea2b78a8d4b0a839820ce44"/>
 			</dataarea>
 		</part>
 	</software>
